@@ -1,0 +1,906 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    color: #3A3A3A;
+    text-decoration:none;
+}
+a:hover {
+    color: #F9C745
+}
+.logo {
+    top: 24px;
+    left: 62px;
+    width: 119px;
+    height: 40px;
+    background: transparent url('img/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+@media (max-width: 375px) {
+    .logo {
+        top: 16px;
+        left: 12px;
+        width: 95px;
+        height: 32px;
+        background: transparent url('img/logo.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+}
+.top {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 88px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+@media (max-width: 375px) {
+    .top {
+        top: 0px;
+        left: 0px;
+        width: 375px;
+        height: 64px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+}
+.home {
+    top: 34px;
+    left: 786px;
+    width: 32px;
+    height: 22px;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position: absolute;
+}
+@media (max-width: 375px) {
+    .home {
+        visibility: hidden;
+    }
+    .intro {
+        visibility: hidden;
+    }
+    .pDesign {
+        visibility: hidden;
+    }
+    .adopt {
+        visibility: hidden;
+    }
+    .fr {
+        visibility: hidden;
+    }
+    .frword {
+        visibility: hidden;
+    }
+}
+.intro {
+    top: 34px;
+    left: 866px;
+    width: 64px;
+    height: 22px;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position: absolute;
+}
+.pDesign {
+    top: 34px;
+    left: 978px;
+    width: 64px;
+    height: 22px;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position:absolute;
+}
+.adopt {
+    top: 34px;
+    left: 1090px;
+    width: 64px;
+    height: 22px;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position: absolute;
+}
+.fr {
+    top: 26px;
+    left: 1204px;
+    width: 176px;
+    height: 38px;
+    background: #F9C745 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    position: absolute;
+}
+.frword {
+    top: 34px;
+    left: 1252px;
+    width: 80px;
+    height: 22px;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position: absolute;
+}
+.banner {
+    top: 88px;
+    left: 0px;
+    width: 1440px;
+    height: 288px;
+    background: transparent url('D:/exam/banner.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.paper1 {
+    top: 388px;
+    left: 0px;
+    width: 500px;
+    height: 300px;
+    background: transparent url('D:/exam/lightpaperfibers.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.paper2 {
+    top: 388px;
+    left: 500px;
+    width: 500px;
+    height: 300px;
+    background: transparent url('D:/exam/lightpaperfibers.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.paper3 {
+    top: 388px;
+    left: 1000px;
+    width: 500px;
+    height: 300px;
+    background: transparent url('D:/exam/lightpaperfibers.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.paper4 {
+    top: 688px;
+    left: 0px;
+    width: 500px;
+    height: 300px;
+    background: transparent url('D:/exam/lightpaperfibers.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.paper5 {
+    top: 688px;
+    left: 500px;
+    width: 500px;
+    height: 300px;
+    background: transparent url('D:/exam/lightpaperfibers.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.paper6 {
+    top: 688px;
+    left: 1000px;
+    width: 500px;
+    height: 300px;
+    background: transparent url('D:/exam/lightpaperfibers.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+@media(max-width: 375px) {
+    .banner {
+        top: 88px;
+        left: 12px;
+        width: 348px;
+        height: 215px;
+        background: transparent url('D:/exam/banner_service-sm.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+        background-size: cover;
+    }
+}
+.step1 {
+    top: 456px;
+    left: 124px;
+    width: 203px;
+    height: 200px;
+    background: transparent url('img/step01.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.step1T {
+    top: 672px;
+    left: 201px;
+    width: 50px;
+    height: 32px;
+    text-align: center;
+    font: normal normal bold 20px/32px Kalam;
+    letter-spacing: 0px;
+    color: #F9C745;
+    opacity: 1;
+    position: absolute;
+}
+.step1W {
+    top: 706px;
+    left: 156px;
+    width: 140px;
+    height: 28px;
+    text-align: center;
+    font: normal normal bold 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+.step1W2 {
+    top: 751px;
+    left: 170px;
+    width: 112px;
+    height: 44px;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+.step2 {
+    top: 456px;
+    left: 453px;
+    width: 203px;
+    height: 200px;
+    background: transparent url('img/step02.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.step2T {
+    top: 672px;
+    left: 527px;
+    width: 56px;
+    height: 32px;
+    text-align: center;
+    font: normal normal bold 20px/32px Kalam;
+    letter-spacing: 0px;
+    color: #F9C745;
+    opacity: 1;
+    position: absolute;
+}
+.step2W {
+    top: 706px;
+    left: 505px;
+    width: 100px;
+    height: 28px;
+    text-align: center;
+    font: normal normal bold 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+.step2W2 {
+    top: 751px;
+    left: 491px;
+    width: 128px;
+    height: 44px;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+.step3 {
+    top: 456px;
+    left: 782px;
+    width: 203px;
+    height: 200px;
+    background: transparent url('img/step04.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.step3T {
+    top: 672px;
+    left: 857px;
+    width: 54px;
+    height: 32px;
+    text-align: center;
+    font: normal normal bold 20px/32px Kalam;
+    letter-spacing: 0px;
+    color: #F9C745;
+    opacity: 1;
+    position: absolute;
+}
+.step3W {
+    top: 706px;
+    left: 844px;
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    font: normal normal bold 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+.step3W2 {
+    top: 751px;
+    left: 796px;
+    width: 176px;
+    height: 38px;
+    text-align: center;
+    font: normal normal normal 16px/19px 07LogoTypeGothic7;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+.step4 {
+    top: 456px;
+    left: 1111px;
+    width: 203px;
+    height: 200px;
+    background: transparent url('img/step03.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.step4T {
+    top: 672px;
+    left: 1186px;
+    width: 54px;
+    height: 32px;
+    text-align: center;
+    font: normal normal bold 20px/32px Kalam;
+    letter-spacing: 0px;
+    color: #F9C745;
+    opacity: 1;
+    position: absolute;
+}
+.step4W {
+    top: 706px;
+    left: 1173px;
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    font: normal normal bold 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+.step4W2 {
+    top: 754px;
+    left: 1104px;
+    width: 218px;
+    height: 35px;
+    text-align: center;
+    font: normal normal normal 16px/19px 07LogoTypeGothic7;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+@media(max-width: 375px) {
+    .step1 {
+        top: 342px;
+        left: 12px;
+        width: 100px;
+        height: 98px;
+        background: transparent url('img/step01.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+    .step1T {
+        top: 335px;
+        left: 128px;
+        width: 50px;
+        height: 32px;
+        text-align: left;
+        font: normal normal bold 20px/32px Kalam;
+        letter-spacing: 0px;
+        color: #F9C745;
+        opacity: 1;
+        position: absolute;
+    }
+    .step1W {
+        top: 369px;
+        left: 128px;
+        width: 140px;
+        height: 28px;
+        text-align: left;
+        font: normal normal bold 20px/27px Noto Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: absolute;
+    }
+    .step1W2 {
+        top: 402px;
+        left: 128px;
+        width: 112px;
+        height: 44px;
+        text-align: left;
+        font: normal normal normal 16px/22px Noto Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: absolute;
+    }
+    .step2 {
+        top: 507px;
+        left: 12px;
+        width: 100px;
+        height: 98px;
+        background: transparent url('img/step02.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+    .step2T {
+        top: 500px;
+        left: 128px;
+        width: 56px;
+        height: 32px;
+        text-align: left;
+        font: normal normal bold 20px/32px Kalam;
+        letter-spacing: 0px;
+        color: #F9C745;
+        opacity: 1;
+        position: absolute;
+    }
+    .step2W {
+        top: 534px;
+        left: 128px;
+        width: 100px;
+        height: 28px;
+        text-align: left;
+        font: normal normal bold 20px/27px Noto Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: absolute;
+    }
+    .step2W2 {
+        top: 567px;
+        left: 128px;
+        width: 128px;
+        height: 44px;
+        text-align: left;
+        font: normal normal normal 16px/22px Noto Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: absolute;
+    }
+    .step3 {
+        top: 672px;
+        left: 12px;
+        width: 100px;
+        height: 98px;
+        background: transparent url('img/step03.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+    .step3T {
+        top: 665px;
+        left: 128px;
+        width: 55px;
+        height: 32px;
+        text-align: left;
+        font: normal normal bold 20px/32px Kalam;
+        letter-spacing: 0px;
+        color: #F9C745;
+        opacity: 1;
+        position: absolute;
+    }
+    .step3W {
+        top: 699px;
+        left: 128px;
+        width: 80px;
+        height: 28px;
+        text-align: left;
+        font: normal normal bold 20px/27px Noto Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: absolute;
+    }
+    .step3W2 {
+        top: 732px;
+        left: 128px;
+        width: 176px;
+        height: 38px;
+        text-align: left;
+        font: normal normal normal 16px/19px 07LogoTypeGothic7;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+    .step4 {
+        top: 837px;
+        left: 12px;
+        width: 100px;
+        height: 98px;
+        background: transparent url('img/step04.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+    .step4T {
+        top: 830px;
+        left: 128px;
+        width: 55px;
+        height: 32px;
+        text-align: left;
+        font: normal normal bold 20px/32px Kalam;
+        letter-spacing: 0px;
+        color: #F9C745;
+        opacity: 1;
+        position: absolute;
+    }
+    .step4W {
+        top: 864px;
+        left: 128px;
+        width: 80px;
+        height: 28px;
+        text-align: left;
+        font: normal normal bold 20px/27px Noto Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: absolute;
+    }
+    .step4W2 {
+        top: 897px;
+        left: 128px;
+        width: 217px;
+        height: 44px;
+        text-align: left;
+        font: normal normal normal 16px/22px Noto Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: absolute;
+    }
+}
+.gap {
+    top: 877px;
+    left: 0.5px;
+    width: 1440px;
+    height: 0px;
+    border: 3px solid #F9C745;
+    opacity: 1;
+    position: absolute;
+}
+@media(max-width: 375px) {
+    .gap {
+        top: 993px;
+        left: 0.5px;
+        width: 375px;
+        height: 0.5px;
+        border: 3px solid #F9C745;
+        opacity: 1;
+        position: absolute;
+    }
+} 
+.contact {
+    top: 925px;
+    left: 232px;
+    width: 200px;
+    height: 127px;
+    background: transparent url('D:/exam/link01.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.contactW {
+    top: 932px;
+    left: 456px;
+    width: 144px;
+    height: 33px;
+    text-align: left;
+    font: normal normal normal 24px/33px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position: absolute;
+}
+.contactW2 {
+    top: 970px;
+    left: 456px;
+    width: 240px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position: absolute;
+}
+.contactfr {
+    top: 1006px;
+    left: 456px;
+    width: 176px;
+    height: 44px;
+    border: 1px solid #3A3A3A;
+    border-radius: 23px;
+    opacity: 1;
+    position: absolute;
+}
+.contactUs {
+    top: 1014px;
+    left: 504px;
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    font: normal normal normal 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position: absolute;
+}
+.join {
+    top: 936px;
+    left: 744px;
+    width: 200px;
+    height: 105px;
+    background: transparent url('D:/exam/link02.png') 0% 0% no-repeat padding-box;
+    border-radius: 53px;
+    opacity: 1;
+    position: absolute;
+}
+.joinW {
+    top: 932px;
+    left: 968px;
+    width: 144px;
+    height: 33px;
+    text-align: left;
+    font: normal normal normal 24px/33px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position: absolute;
+}
+.joinW2 {
+    top: 970px;
+    left: 968px;
+    width: 240px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position: absolute;
+}
+.joinfr {
+    top: 1008px;
+    left: 968px;
+    width: 176px;
+    height: 44px;
+    border: 1px solid #3A3A3A;
+    border-radius: 23px;
+    opacity: 1;
+    position: absolute;
+}
+.joinUs {
+    top: 1016px;
+    left: 1016px;
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    font: normal normal normal 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    position: absolute;
+}
+.bot {
+    top: 1102px;
+    left: -2px;
+    width: 1444px;
+    height: 70px;
+    background: #3A3A3A 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.copyright {
+    top: 1126px;
+    left: 556px;
+    width: 328px;
+    height: 22px;
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+@media(max-width: 375px) {
+    .contact {
+        top: 1044px;
+        left: 103px;
+        width: 160px;
+        height: 102px;
+        background: transparent url('D:/exam/link01.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .contactW {
+        top: 1173px;
+        left: 116px;
+        width: 144px;
+        height: 33px;
+        text-align: center;
+        font: normal normal normal 24px/33px Noto Sans;
+        letter-spacing: 0px;
+        color: #3A3A3A;
+        opacity: 1;
+        position: absolute;
+    }
+    .contactW2 {
+        top: 1211px;
+        left: 68px;
+        width: 240px;
+        height: 22px;
+        text-align: center;
+        font: normal normal normal 16px/22px Noto Sans;
+        letter-spacing: 0px;
+        color: #3A3A3A;
+        opacity: 1;
+        position: absolute;
+    }
+    .contactfr {
+        top: 1247px;
+        left: 100px;
+        width: 176px;
+        height: 44px;
+        border: 1px solid #3A3A3A;
+        border-radius: 23px;
+        opacity: 1;
+        position: absolute;
+    }
+    .contactUs {
+        top: 1255px;
+        left: 148px;
+        width: 80px;
+        height: 28px;
+        text-align: center;
+        font: normal normal normal 20px/27px Noto Sans;
+        letter-spacing: 0px;
+        color: #3A3A3A;
+        opacity: 1;
+        position: absolute;
+    }
+    .join {
+        top: 1338px;
+        left: 98px;
+        width: 180px;
+        height: 95px;
+        background: transparent url('D:/exam/link02.png') 0% 0% no-repeat padding-box;
+        border-radius: 53px;
+        opacity: 1;
+        position: absolute;
+    }
+    .joinW {
+        top: 1479px;
+        left: 116px;
+        width: 144px;
+        height: 33px;
+        text-align: center;
+        font: normal normal normal 24px/33px Noto Sans;
+        letter-spacing: 0px;
+        color: #3A3A3A;
+        opacity: 1;
+        position: absolute;
+    }
+    .joinW2 {
+        top: 1517px;
+        left: 68px;
+        width: 240px;
+        height: 22px;
+        text-align: left;
+        font: normal normal normal 16px/22px Noto Sans;
+        letter-spacing: 0px;
+        color: #3A3A3A;
+        opacity: 1;
+        position: absolute;
+    }
+    .joinfr {
+        top: 1555px;
+        left: 100px;
+        width: 176px;
+        height: 44px;
+        border: 1px solid #3A3A3A;
+        border-radius: 23px;
+        opacity: 1;
+        position: absolute;
+    }
+    .joinUs {
+        top: 1563px;
+        left: 148px;
+        width: 80px;
+        height: 28px;
+        text-align: center;
+        font: normal normal normal 20px/27px Noto Sans;
+        letter-spacing: 0px;
+        color: #3A3A3A;
+        opacity: 1;
+        position: absolute;
+    }
+    .bot {
+        top: 1652px;
+        left: -1px;
+        width: 378px;
+        height: 68px;
+        background: #3A3A3A 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+    .copyright {
+        top: 1676px;
+        left: 44px;
+        width: 288px;
+        height: 20px;
+        text-align: center;
+        font: normal normal normal 14px/19px Noto Sans;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        position: absolute;
+    }
+}
